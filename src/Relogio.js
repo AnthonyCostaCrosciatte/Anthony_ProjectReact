@@ -1,7 +1,7 @@
 function Relogio() {
   return (
     <>
-      <h1>Meu Relógio</h1>
+      <h1>Meu Relógio Lindo</h1>
     
     </>
   );
