@@ -1,7 +1,7 @@
 import Galeria from "./GaleriaDaAtv03";
 import { Link } from 'react-router-dom';
 
-export default function Atividade03() {
+export default function Atv03() {
     return (
         <>
             <h1>Atividade 03</h1>
