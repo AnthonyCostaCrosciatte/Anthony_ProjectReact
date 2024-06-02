@@ -44,20 +44,20 @@ export default function ContadorGenero() {
 
             <div className='containerHomemMulher'>
                 <div className="containerHomem">
-                    <img src="https://cdn-icons-png.flaticon.com/512/145/145843.png" alt=""/>
+                    <img src="https://cdn-icons-png.flaticon.com/512/145/145843.png" alt="Homem"/>
                     <div className='container-btns'>
-                        <button onClick={somarHomem}>+</button>
-                        <button onClick={subtrairHomem}>-</button>
+                        <button className="btn-somar" onClick={somarHomem}>+</button>
+                        <button className="btn-subtrair" onClick={subtrairHomem}>-</button>
                     </div>
                     <h2>Homem</h2>
                     <span className="contadorHomem">{contadorHomem}</span>
                 </div>
 
                 <div className="containerMulher">
-                    <img src="https://gtisd.net/wp-content/uploads/2020/10/mujer-de-negocios.png" alt="" />
+                    <img src="https://gtisd.net/wp-content/uploads/2020/10/mujer-de-negocios.png" alt="Mulher" />
                     <div className='container-btns'>
-                        <button onClick={somarMulher}>+</button>
-                        <button onClick={subtrairMulher}>-</button>
+                        <button className="btn-somar" onClick={somarMulher}>+</button>
+                        <button className="btn-subtrair" onClick={subtrairMulher}>-</button>
                     </div>
                     <h2>Mulher</h2>
                     <span className="contadorMulher">{contadorMulher}</span>
