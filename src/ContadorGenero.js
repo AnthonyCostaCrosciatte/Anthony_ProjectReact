@@ -54,7 +54,7 @@ export default function ContadorGenero() {
                 </div>
 
                 <div className="containerMulher">
-                    <img src="https://gtisd.net/wp-content/uploads/2020/10/mujer-de-negocios.png" alt="Mulher" />
+                    <img src="https://i.pinimg.com/originals/a0/c6/57/a0c657bbfeed9e92afb89f2d6e8eed74.jpg" alt="Mulher" />
                     <div className='container-btns'>
                         <button className="btn-somar" onClick={somarMulher}>+</button>
                         <button className="btn-subtrair" onClick={subtrairMulher}>-</button>
