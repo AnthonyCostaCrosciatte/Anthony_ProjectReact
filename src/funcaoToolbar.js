@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { sculptureList } from './DataAtv04';
+import './Gallery.css'; // Importando o arquivo CSS
 
 export default function Gallery() {
     const [index, setIndex] = useState(0);
@@ -24,12 +25,9 @@ export default function Gallery() {
     let sculpture = sculptureList[index];
 
     return (
-        <>
+        <div className="gallery-container">
             <h3>Gallery</h3>
-            <button onClick={handleBackClick} disabled={index === 0}>
-                Back
-            </button>
-            <button onClick={handleNextClick} disabled={index === sculptureList.length - 1}>
+            <button className="nav-button" onClick={handleNextClick} disabled={index === sculptureList.length - 1}>
                 Next
             </button>
             <h2>
@@ -44,6 +42,9 @@ export default function Gallery() {
             <br />
             {showMore && <p>{sculpture.description}</p>}
             <img src={sculpture.url} alt={sculpture.alt} />
-        </>
+            <button className="nav-button" onClick={handleBackClick} disabled={index === 0}>
+                Back
+            </button>
+        </div>
     );
 }
