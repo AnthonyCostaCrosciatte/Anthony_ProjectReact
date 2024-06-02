@@ -39,7 +39,7 @@ export default function ContadorGenero() {
     return (
         <div className="contador-container">
             <h1>Total</h1>
-            <img onClick={zerar} src="coloque o link da imagem de recarregar aqui" alt="" className='reload' />
+            <img onClick={zerar} src="https://www.me-elecmetal.com/wp-content/uploads/2021/09/recuperacion-de-scrap.png" alt="" className='reload' />
             <span className="contadorTotal">{contadorTotal}</span>
 
             <div className='containerHomemMulher'>
