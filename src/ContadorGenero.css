@@ -65,15 +65,13 @@ button {
 }
 
 .btn-somar {
-    background-color: #4CAF50; 
+    background-color: #4CAF50; /* Verde */
 }
 
 .btn-subtrair {
-    background-color: #f44336; 
+    background-color: #f44336; /* Vermelho */
 }
 
 button:hover {
     opacity: 0.8;
 }
-
-  
